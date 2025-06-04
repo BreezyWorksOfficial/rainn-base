@@ -1,0 +1,15 @@
+
+{%- if article and article != empty -%}
+  <a href="{{ article.url }}" class="full-unstyled-link rainn--article-card">
+    <div class="card__header">
+        <span>Farming</span>
+        <span> &middot; </span>
+        <span>Article</span>
+    </div>
+    <h2>{{ article.title | truncate: 52 }}</h2>
+    <p>
+        {{ article.content | strip_html | truncate: 120 }}
+    </p>
+    <p class="card__footer">by {{ article.author }}</p>
+</a>    
+{%- endif -%}
