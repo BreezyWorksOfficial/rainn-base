@@ -77,47 +77,6 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_Fbmwhd": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_DUBjRM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dripppers"
-          }
-        },
-        "featured_collection_BNM9Wc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sprinklers"
-          }
-        },
-        "featured_collection_U6P3RK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "filters"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_DUBjRM",
-        "featured_collection_BNM9Wc",
-        "featured_collection_U6P3RK"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_blog_UANpXJ": {
       "type": "featured-blog",
       "name": "t:sections.featured-blog.presets.name",
@@ -140,7 +99,6 @@
   "order": [
     "image_banner",
     "featured_collection",
-    "collection_list_Fbmwhd",
     "featured_blog_UANpXJ"
   ]
 }
