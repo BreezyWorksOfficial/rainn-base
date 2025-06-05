@@ -7,6 +7,10 @@
   font-size: 0.8em;
 }
 
+.rainn--article-card:hover h2 {
+  text-decoration: underline;
+}
+
 .rainn--article-card .card__footer {
   opacity: 0.8;
 }
