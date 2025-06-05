@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -22,7 +31,10 @@
           }
         }
       },
-      "block_order": ["heading", "button"],
+      "block_order": [
+        "heading",
+        "button"
+      ],
       "settings": {
         "image": "shopify://shop_images/dan-meyers-IQVFVH0ajag-unsplash.jpg",
         "image_overlay_opacity": 40,
@@ -65,13 +77,54 @@
         "padding_bottom": 36
       }
     },
+    "collection_list_Fbmwhd": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_DUBjRM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dripppers"
+          }
+        },
+        "featured_collection_BNM9Wc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sprinklers"
+          }
+        },
+        "featured_collection_U6P3RK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "filters"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_DUBjRM",
+        "featured_collection_BNM9Wc",
+        "featured_collection_U6P3RK"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_blog_UANpXJ": {
       "type": "featured-blog",
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
-        "blog": "news",
+        "blog": "farming",
         "post_limit": 3,
-        "heading": "Blog posts",
+        "heading": "",
         "heading_size": "h2",
         "columns_desktop": 3,
         "show_view_all": false,
@@ -84,5 +137,10 @@
       }
     }
   },
-  "order": ["image_banner", "featured_collection", "featured_blog_UANpXJ"]
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "collection_list_Fbmwhd",
+    "featured_blog_UANpXJ"
+  ]
 }
