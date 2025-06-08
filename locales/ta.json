@@ -798,14 +798,16 @@
         "pending_payment": {
           "due_notice": "உங்கள் %{amount_due} தொகை செலுத்த வேண்டிய தேதி %{due_date}.",
           "multibanco": {
-            "find_nearest_atm": "அருகிலுள்ள ஏடிஎம்மைக் கண்டறியவும்"
+            "find_nearest_atm": "அருகிலுள்ள ஏடிஎம்மைக் கண்டறியவும்",
+            "buyer_action_info": "உங்கள் %{amount_due} தொகை செலுத்த வேண்டியுள்ளது."
           }
         },
         "store_credit": {
           "label": "ஸ்டோர் கிரெடிட்",
           "apply_label": "ஸ்டோர் கிரெடிட்டைப் பயன்படுத்துங்கள்",
           "add_label": "ஸ்டோர் கிரெடிட்டைச் சேர்",
-          "no_fixed_selling_plans": "ஒத்திவைக்கப்பட்ட கொள்முதல் விருப்பங்களுடன் நீங்கள் ஸ்டோர் கிரெடிட்டைப் பயன்படுத்த முடியாது."
+          "no_fixed_selling_plans": "ஒத்திவைக்கப்பட்ட கொள்முதல் விருப்பங்களுடன் நீங்கள் ஸ்டோர் கிரெடிட்டைப் பயன்படுத்த முடியாது.",
+          "buying_gift_card": "பரிசு அட்டையை வாங்க ஸ்டோர் கிரெடிட்டைப் பயன்படுத்த முடியாது."
         },
         "fact_billing_address_label": "பில்லிங் முகவரி",
         "saved_credit_card_info": "கடைசி நான்கு இலக்கங்கள்",
@@ -815,7 +817,8 @@
             "expiry": "காலாவதி தேதி",
             "security_code": "பாதுகாப்பு குறியீடு",
             "name": "அட்டையில் உள்ள பெயர்"
-          }
+          },
+          "description": "உங்கள் கார்டின் பில்லிங் முகவரியை மட்டுமே நீங்கள் மாற்ற முடியும்."
         },
         "order_edit_banner_items_added": {
           "other": "%{count} சேர்க்கப்பட்டது"
@@ -848,7 +851,35 @@
           "other": "%{count} காலாவதியான கார்டுகள் உள்ளன, அவற்றை உங்கள் கணக்கில் பார்த்து திருத்தலாம்."
         },
         "local_payment_method_receiver_notice": "உங்கள் ஆர்டரைச் செய்த பிறகு, கட்டண விவரங்களைப் பெறுவீர்கள். {{dueDays}} நாட்களுக்குள் ATM அல்லது ஆன்லைனில் பணம் செலுத்துங்கள்.",
-        "order_edit_banner_subtitle": "உங்கள் ஆர்டர் {{order_number}} புதுப்பிக்கப்பட்டது. இந்த மாற்றங்களை மதிப்பாய்வு செய்து, உங்கள் ஆர்டரை உறுதிப்படுத்த பணம் செலுத்துங்கள்."
+        "order_edit_banner_subtitle": "உங்கள் ஆர்டர் {{order_number}} புதுப்பிக்கப்பட்டது. இந்த மாற்றங்களை மதிப்பாய்வு செய்து, உங்கள் ஆர்டரை உறுதிப்படுத்த பணம் செலுத்துங்கள்.",
+        "order_covered_by_store_credit_notice": "உங்கள் ஆர்டருக்கு உங்கள் ஸ்டோர் கிரெடிட் பொருந்தும்.",
+        "same_billing_address_checkbox_label": "ஷிப்பிங் முகவரியை பில்லிங் முகவரியாகப் பயன்படுத்தவும்.",
+        "use_location_shipping_address_label": "இருப்பிட ஷிப்பிங் முகவரியைப் பயன்படுத்தவும்",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "செல்லுபடியாகும் CVV அல்லது பாதுகாப்பு குறியீட்டை உள்ளிடவும்."
+            }
+          }
+        },
+        "order_edit_banner_title": "{{amount_owed}} செலுத்த வேண்டும்.",
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} {{quantity}} நீக்கப்பட்டது"
+        },
+        "order_edit_banner_items_returned": {
+          "with_quantities": "{{delta}} {{quantity}} திரும்பப் பெறப்பட்டது"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "with_quantities": "{{delta}} திரும்பப் பெறுதலில் இருந்து நீக்கப்பட்டது."
+        },
+        "order_edit_banner_multiple_items_return_line_item_removed": "திரும்பப் பெறப்பட்ட தொகையிலிருந்து {{amount}} நீக்கப்பட்டது.",
+        "gift_card_store_credit": {
+          "add_label": "பரிசு அட்டையைச் சேர்க்கவும் அல்லது கிரெடிட்டைச் சேமிக்கவும்",
+          "manage_label": "பரிசு அட்டைகளை நிர்வகிக்கவும் அல்லது கிரெடிட்டை சேமிக்கவும்"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "தனிப்பயன் ஆன்சைட் கட்டண உறுதிப்படுத்தல்"
+        }
       },
       "billing": {
         "billing_address_title": "பில் அனுப்பு",
@@ -1348,7 +1379,23 @@
         "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "விரைவில் உங்களுக்கு உறுதிப்படுத்தல் மின்னஞ்சல் அனுப்பப்படும். ஷாப் பயன்பாட்டைப் பயன்படுத்தி உங்கள் ஆர்டரைக் கண்காணிக்கவும்.",
         "order_status_payments_app_pending_payment_description_default_with_phone": "விரைவில் உறுதிப்படுத்தல் உரையைப் பெறுவீர்கள். ஷாப் பயன்பாட்டைப் பயன்படுத்தி உங்கள் ஆர்டரைக் கண்காணிக்கவும்.",
         "order_status_payments_app_pending_payment_description_default_with_phone_payment": "விரைவில் உறுதிப்படுத்தல் உரையைப் பெறுவீர்கள். ஷாப் பயன்பாட்டைப் பயன்படுத்தி உங்கள் ஆர்டரைக் கண்காணிக்கவும்.",
-        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "விரைவில் உறுதிப்படுத்தல் உரையைப் பெறுவீர்கள். ஷாப் பயன்பாட்டைப் பயன்படுத்தி உங்கள் ஆர்டரைக் கண்காணிக்கவும்."
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "விரைவில் உறுதிப்படுத்தல் உரையைப் பெறுவீர்கள். ஷாப் பயன்பாட்டைப் பயன்படுத்தி உங்கள் ஆர்டரைக் கண்காணிக்கவும்.",
+        "confirmation_email_sent_text": "%{email} க்கு உறுதிப்படுத்தல் மின்னஞ்சல் அனுப்பப்பட்டுள்ளது.",
+        "purchase_order_number_title": "PO எண் #%{purchase_order_number}",
+        "failed_pending_payment_page_title": "உங்கள் கட்டணத்தில் சிக்கல் உள்ளது.",
+        "gift_card_confirmation_by_text": "நீங்கள் அதைப் பெறவில்லை என்றால், உரையை மீண்டும் அனுப்பவும் அல்லது எங்களைத் தொடர்பு கொள்ளவும்.",
+        "thank_you_title_review": "உங்கள் ஆர்டர் மதிப்பாய்வுக்காக சமர்ப்பிக்கப்பட்டுள்ளது.",
+        "thank_you_title_payments_app_pending_default": "உங்கள் கட்டணம் செயல்படுத்தப்படுகிறது.",
+        "thank_you_title_payments_app_failed_pending_payment": "உங்கள் கட்டணத்தைச் செயல்படுத்த முடியவில்லை.",
+        "thank_you_confirmed_order_with_email_payment": "உங்கள் ஆர்டரில் %{date} பணம் செலுத்தியுள்ளீர்கள்.",
+        "thank_you_confirmed_order_with_phone_payment": "உங்கள் ஆர்டரில் %{date} பணம் செலுத்தியுள்ளீர்கள்.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "உங்கள் ஆர்டரில் %{date} பணம் செலுத்தியுள்ளீர்கள்.",
+        "order_status_confirmed_order_with_email": "உங்கள் ஆர்டர் தயாரானதும் உங்களுக்கு மின்னஞ்சல் அனுப்பப்படும்.",
+        "order_status_confirmed_order_with_phone": "உங்கள் ஆர்டர் தயாரானதும் உங்களுக்கு ஒரு குறுஞ்செய்தி வரலாம்.",
+        "order_status_confirmed_order_with_email_and_phone": "உங்கள் ஆர்டர் தயாரானதும் உங்களுக்கு மின்னஞ்சல் அனுப்பப்படும்.",
+        "order_status_confirmed_order_with_email_payment": "உங்கள் ஆர்டரில் %{date} பணம் செலுத்தியுள்ளீர்கள்.",
+        "order_status_confirmed_order_with_phone_payment": "உங்கள் ஆர்டரில் %{date} பணம் செலுத்தியுள்ளீர்கள்.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "உங்கள் ஆர்டரில் %{date} பணம் செலுத்தியுள்ளீர்கள்."
       },
       "order_summary": {
         "discount_discovery": {
@@ -1466,14 +1513,19 @@
           },
           "per_unit": {
             "single": "%{விலை}/%{யூனிட்}"
-          }
+          },
+          "content_html": "%{விலை}%{அணுகக்கூடிய_பிரிப்பான்}%{ஒவ்வொரு_அலகுக்கும்}"
         },
         "estimated_tax_label": "மதிப்பிடப்பட்ட வரி",
         "multiple_shipping_lines_label": "மொத்தம் அனுப்புதல்",
         "recurring_subtotal_label": "தொடர்ச்சியான கூட்டுத்தொகை",
         "recurring_total_label": "தொடர்ச்சியான மொத்தம்",
         "deferred_payment_info": {
-          "paid_today": "இன்று செலுத்தப்பட்ட மொத்த தொகை"
+          "paid_today": "இன்று செலுத்தப்பட்ட மொத்த தொகை",
+          "title": "%{amount_due} செலுத்த வேண்டிய தேதி %{due_at}.",
+          "description_html": "உங்கள் ஆர்டர் பற்றிய கேள்விகளுக்கு, %{contact_us}.",
+          "due_on_fulfillment_title": "%{amount_due} தொகையை செலுத்த வேண்டியுள்ளது.",
+          "due_on_receipt_title": "%{amount_due} தொகையை செலுத்த வேண்டிய தேதி வந்துவிட்டது."
         },
         "payment_terms_totals": {
           "due_today": "இன்று செலுத்த வேண்டிய மொத்த தொகை",
@@ -1497,7 +1549,19 @@
         "recurring_total_tooltip": "ஷிப்பிங், வரி, தீர்வைகள் அல்லது பொருந்தக்கூடிய தள்ளுபடிகள் எதுவும் இதில் அடங்காது.",
         "higher_value_discount_applied": "உங்கள் தற்போதைய தள்ளுபடிகளுடன் <strong style=\"text-transform:uppercase\">%{code} ஐப்</strong> பயன்படுத்த முடியவில்லை.",
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> இப்போது வேலை செய்யவில்லை. உதவிக்கு எங்களைத் தொடர்பு கொள்ளவும்.",
-        "error_duties_tooltip": "இந்த ஆர்டர் வேறொரு நாட்டிலிருந்து அனுப்பப்படுகிறது, எனவே டெலிவரி செய்யும்போது வரிகள் மற்றும் வரிகள் வசூலிக்கப்படலாம்."
+        "error_duties_tooltip": "இந்த ஆர்டர் வேறொரு நாட்டிலிருந்து அனுப்பப்படுகிறது, எனவே டெலிவரி செய்யும்போது வரிகள் மற்றும் வரிகள் வசூலிக்கப்படலாம்.",
+        "discount_savings_notice": "தள்ளுபடிகளில் %{discount_amount} க்குப் பிறகு",
+        "gift_card_savings_notice": "பரிசு அட்டைகளில் %{gift_card_amount} க்குப் பிறகு",
+        "gift_card_ending": "%{last_characters} உடன் முடியும் பரிசு அட்டை",
+        "confirmation_number_label": "உறுதிப்படுத்தல் #%{confirmation_number}",
+        "deferred_balance_info": {
+          "title": "{{amount_due}} நிலுவைத் தொகை {{due_at}} அன்று செலுத்தப்பட உள்ளது.",
+          "due_on_fulfillment_title": "{{amount_due}} நிலுவைத் தொகை பூர்த்தி செய்யப்பட உள்ளது."
+        },
+        "total_updated_label_with_price": "புதுப்பிக்கப்பட்ட மொத்த விலை: %{totalPrice}",
+        "updated_shipping_method": "புதுப்பிக்கப்பட்ட ஷிப்பிங் முறை: %{shipping_method}",
+        "recurring_total_multiple_label": "இந்த ஆர்டரில் பல பொருட்களுக்கு தொடர்ச்சியான கட்டணம் உள்ளது.",
+        "component_quantity_title": "%{அளவு} × %{தயாரிப்பு_தலைப்பு}"
       },
       "shop_policies": {
         "purchase_options_cancellation_policy": "ரத்துசெய்தல் கொள்கை",
@@ -1682,16 +1746,40 @@
         "search_button": "தேடல்",
         "address_label": "முகவரி",
         "paginator": {
-          "previous_accessibility_label": "முந்தைய பக்கம்"
+          "previous_accessibility_label": "முந்தைய பக்கம்",
+          "header": {
+            "one": "%{count} புள்ளியில் %{first} - %{last} ஐக் காட்டுகிறது.",
+            "other": "%{count} புள்ளிகளில் %{first} - %{last} ஐக் காட்டுகிறது."
+          },
+          "selected_pickup_point_label": {
+            "one": "%{count} புள்ளியில் %{pickup_point_index}",
+            "other": "%{count} புள்ளிகளில் %{pickup_point_index}"
+          },
+          "selected_page": {
+            "one": "%{count} புள்ளியில் %{first} - %{last}",
+            "other": "%{முதல்} - %{கடைசி} / %{எண்ணிக்கை} புள்ளிகள்"
+          }
         },
         "change": "இருப்பிடத்தை மாற்று",
         "geolocation": {
           "shared_location_button": "எனது இருப்பிடத்தைப் பயன்படுத்து",
           "errors": {
-            "unsuported_by_browser": "உங்கள் உலாவி புவிஇருப்பிடத்தைப் பெறுவதை ஆதரிக்கவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு உலாவியைப் பயன்படுத்தவும்."
+            "unsuported_by_browser": "உங்கள் உலாவி புவிஇருப்பிடத்தைப் பெறுவதை ஆதரிக்கவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு உலாவியைப் பயன்படுத்தவும்.",
+            "permission_denied": "உங்கள் இருப்பிடத்தைப் பெற முடியவில்லை. மீண்டும் முயற்சிக்கவும்."
           }
         },
-        "could_not_resolve_address": "உங்கள் முகவரியைக் கண்டறிய முடியவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு முகவரியைப் பயன்படுத்தவும்."
+        "could_not_resolve_address": "உங்கள் முகவரியைக் கண்டறிய முடியவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு முகவரியைப் பயன்படுத்தவும்.",
+        "no_pickup_points_near_you": "தேர்ந்தெடுக்கப்பட்ட முகவரிக்கு அருகில் எந்த பிக்அப் புள்ளிகளும் இல்லை.",
+        "no_pickup_points_near_location": "உங்கள் இருப்பிடத்திற்கு அருகில் எந்த பிக்அப் புள்ளிகளும் இல்லை.",
+        "pickup_unavailable_banner_title": {
+          "one": "உங்கள் பொருளுக்கு எந்த பிக்அப் புள்ளிகளும் கிடைக்கவில்லை.",
+          "other": "உங்கள் பொருட்களுக்கு பிக்அப் புள்ளிகள் எதுவும் கிடைக்கவில்லை."
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "உங்கள் இடத்திற்கு அருகில் %{count} பிக்அப் பாயிண்ட் உள்ளது",
+          "other": "உங்கள் இடத்திற்கு அருகில் %{count} பிக்அப் புள்ளிகள் உள்ளன"
+        },
+        "waiting_on_pickup_point_location_notice": "பிக்அப் புள்ளிகளைத் தேடுகிறது..."
       },
       "wallets": {
         "errors": {
@@ -1770,7 +1858,8 @@
         },
         "return_to_store": "கடைக்குத் திரும்பு",
         "payment_in_progress_body": "உங்கள் கட்டணம் செயல்படுத்தப்படுகிறது. உங்கள் ஆர்டர் விரைவில் நிறைவடையும்.",
-        "redirection_notice": "\" {{buttonLabel}} \" என்பதைக் கிளிக் செய்த பிறகு, உங்கள் கொள்முதலைப் பாதுகாப்பாக முடிக்க {{walletName}} க்கு திருப்பி விடப்படுவீர்கள்."
+        "redirection_notice": "\" {{buttonLabel}} \" என்பதைக் கிளிக் செய்த பிறகு, உங்கள் கொள்முதலைப் பாதுகாப்பாக முடிக்க {{walletName}} க்கு திருப்பி விடப்படுவீர்கள்.",
+        "redirect_hint": "{{walletName}} உடன் உள்நுழையுமாறு கேட்கப்படுவீர்கள்."
       },
       "note": {
         "length_exceeds_maximum": "குறிப்பின் அளவை 5000 அல்லது அதற்கும் குறைவான எழுத்துகளாகக் குறைக்கவும்."
@@ -2126,7 +2215,9 @@
         "terminal": {
           "action": {
             "cta": "பக்கத்தைப் புதுப்பிக்கவும்"
-          }
+          },
+          "title": "எங்கள் செக் அவுட்டில் ஒரு சிக்கல் ஏற்பட்டது.",
+          "message": "இந்தப் பக்கத்தைப் புதுப்பிக்கவும் அல்லது சில நிமிடங்களில் மீண்டும் முயற்சிக்கவும்."
         }
       },
       "notice_banner": {
@@ -2143,7 +2234,17 @@
         "calculating_shipping": "அனுப்பும் கட்டணம் இன்னும் கணக்கிடப்படுகிறது. சில வினாடிகள் கழித்து மீண்டும் முயற்சிக்கவும். உங்களிடம் கட்டணம் வசூலிக்கப்படவில்லை.",
         "calculating_taxes": "வரிகள் இன்னும் கணக்கிடப்படுகின்றன. சில வினாடிகள் கழித்து மீண்டும் முயற்சிக்கவும். உங்களிடம் கட்டணம் வசூலிக்கப்படவில்லை.",
         "generic_processing_error": {
-          "body": "உங்களிடம் கட்டணம் வசூலிக்கப்படவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு கட்டண முறையைப் பயன்படுத்தவும்."
+          "body": "உங்களிடம் கட்டணம் வசூலிக்கப்படவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு கட்டண முறையைப் பயன்படுத்தவும்.",
+          "title": "உங்கள் ஆர்டரைச் செயல்படுத்துவதில் சிக்கல் ஏற்பட்டது."
+        },
+        "return_to_cart_to_update_quantities": "அளவுகளைப் புதுப்பிக்க %{return_to_cart_link_text} ஐப் பயன்படுத்தவும்.",
+        "subscription_changed": "உங்கள் சந்தாக்களில் ஒன்று மாறிவிட்டது.",
+        "violations_title": "{{violation}} காணவில்லை அல்லது செல்லாது.",
+        "editable_shipping_address_violations_message_title": "உங்கள் ஆர்டரை முடிக்க இந்தத் தகவலைச் சேர்க்கவும்:",
+        "shipping_address_incomplete_title": "ஷிப்பிங் முகவரி முழுமையடையவில்லை.",
+        "contact_information": {
+          "title": "தொடர்புத் தகவல் தவறானது.",
+          "header": "உங்கள் தகவலைப் புதுப்பிக்க, {{emailLink}} ."
         }
       },
       "local_pickup": {
@@ -2151,12 +2252,22 @@
         "your_location": "உங்கள் இடம்",
         "no_stores_found": "கடைகள் எதுவும் இல்லை.",
         "all_stores_far_away": {
-          "ship_to_address_link": "முகவரிக்கு அனுப்பு"
+          "ship_to_address_link": "முகவரிக்கு அனுப்பு",
+          "title": "அருகிலுள்ள கடைகள் %{distance} க்கும் அதிகமான தொலைவில் உள்ளன.",
+          "description": "அதற்கு பதிலாக ஒரு கடையையோ அல்லது %{ship_to_address_link} ஐயோ தேர்ந்தெடுக்கவும்."
         },
         "paginator": {
-          "previous": "முந்தைய பக்கம்"
+          "previous": "முந்தைய பக்கம்",
+          "label": {
+            "one": "%{count} கடையில் %{first} - %{last}",
+            "other": "%{count} கடைகளில் %{first} - %{last}"
+          }
         },
-        "could_not_resolve_address": "உங்கள் முகவரியைக் கண்டறிய முடியவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு முகவரியைப் பயன்படுத்தவும்."
+        "could_not_resolve_address": "உங்கள் முகவரியைக் கண்டறிய முடியவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது வேறு முகவரியைப் பயன்படுத்தவும்.",
+        "location_information": {
+          "one": "%{address} க்கு அருகில் ஸ்டாக் உள்ள %{count} கடை உள்ளது.",
+          "other": "%{address} க்கு அருகில் ஸ்டாக் உள்ள %{count} கடைகள் உள்ளன."
+        }
       },
       "clipboard": {
         "failed_to_copy": "நகலெடுக்க முடியவில்லை"
@@ -2166,12 +2277,24 @@
         "return_to_store_simple": "கடைக்குத் திரும்பு",
         "errors": {
           "try_again_later": "உங்கள் இணைப்பைச் சரிபார்க்கவும் அல்லது இந்த சாளரத்தை மூடிவிட்டு சில நிமிடங்களில் மீண்டும் முயற்சிக்கவும்.",
-          "checkout_has_expired": "உங்கள் செக் அவுட் காலாவதியாகிவிட்டது. இந்த சாளரத்தை மூடிவிட்டு {{shopName}} இலிருந்து மீண்டும் செக் அவுட் செய்ய முயற்சிக்கவும்."
+          "checkout_has_expired": "உங்கள் செக் அவுட் காலாவதியாகிவிட்டது. இந்த சாளரத்தை மூடிவிட்டு {{shopName}} இலிருந்து மீண்டும் செக் அவுட் செய்ய முயற்சிக்கவும்.",
+          "problem_loading": "ஷாப் பேவை ஏற்றுவதில் சிக்கல் உள்ளது."
         }
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "உங்களுக்கு இனி B2B ஆர்டர்களை வைக்க அனுமதி இல்லை. அதற்கு பதிலாக தனிப்பட்ட ஆர்டரை வைக்க %{logout_url}.",
         "lost_permissions_subtitle": "உங்களுக்கு இனி B2B ஆர்டர்களை வைக்க அனுமதி இல்லை, தனிப்பட்ட ஆர்டரை வைக்க வெளியேறவும்."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "link_label": "{{partnerDisplayName}} விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+        }
+      },
+      "captcha": {
+        "title": "தொடர CAPTCHA-வை முடிக்கவும்.",
+        "errors": {
+          "not_solved": "தொடர CAPTCHA-வை முடிக்கவும்."
+        }
       }
     },
     "page_titles": {
@@ -3455,7 +3578,15 @@
             "description_due_on_receipt_partially_paid": "இந்த ஆர்டருக்குப் பகுதியளவு பணம் செலுத்தப்பட்டது. உங்களிடம் மீதமுள்ள தொகை உள்ளது. பணம் செலுத்த வேண்டியிருக்கும் போது உங்களுக்கு இன்வாய்ஸ் கிடைக்கும்.",
             "description_due_on_fulfillment": "இந்த ஆர்டரில் உள்ள அனைத்து பொருட்களும் பூர்த்தி செய்யப்பட்டவுடன் பணம் செலுத்த வேண்டும்.",
             "description_due_on_fulfillment_partially_paid": "இந்த ஆர்டருக்குப் பகுதியளவு பணம் செலுத்தப்பட்டது. உங்களிடம் மீதமுள்ள தொகை உள்ளது. இந்த ஆர்டரில் உள்ள அனைத்து பொருட்களும் பூர்த்தி செய்யப்பட்டவுடன் பணம் செலுத்தப்பட வேண்டும்.",
-            "description_partially_paid": "இந்த ஆர்டருக்குப் பகுதியளவு பணம் செலுத்தப்பட்டது. உங்களிடம் மீதமுள்ள தொகை உள்ளது."
+            "description_partially_paid": "இந்த ஆர்டருக்குப் பகுதியளவு பணம் செலுத்தப்பட்டது. உங்களிடம் மீதமுள்ள தொகை உள்ளது.",
+            "banner_overdue": {
+              "one": "உங்கள் கட்டணம் {{count}} நாள் தாமதமாகிவிட்டது.",
+              "other": "உங்கள் கட்டணம் {{count}} நாட்கள் தாமதமாகிவிட்டது."
+            },
+            "banner_due": {
+              "one": "உங்கள் பணம் செலுத்த வேண்டிய நாள் {{count}} நாள்.",
+              "other": "உங்கள் பணம் செலுத்த வேண்டிய நாள் {{count}} நாட்கள் ஆகும்."
+            }
           },
           "draft": {
             "description": "ஆர்டர் உறுதிசெய்யப்பட்டதும் கட்டண விவரங்கள் முடிவு செய்யப்படும்.",
@@ -3509,7 +3640,9 @@
           "hide_events_accessibility_label": "வரைவு ஆர்டர் விவரங்களை மறை"
         },
         "subtitle": "சமர்ப்பிக்கப்பட்டது {{date}}",
-        "title": "ஆர்டர் {{name}}"
+        "title": "ஆர்டர் {{name}}",
+        "draft_order_subtitle": "{{draftOrderName}} ஆர்டரிலிருந்து {{date}} உறுதிப்படுத்தப்பட்டது.",
+        "loading_finished_accessibility_message": "ஆர்டர் விவரங்கள் ஏற்றப்பட்டன."
       },
       "payment_methods": {
         "payment_delete": {
@@ -3546,7 +3679,9 @@
         "payment_terms": "கட்டண விதிமுறைகள்",
         "permissions_label": "உங்கள் அனுமதிகள்",
         "tax_exemptions": "வரி விலக்குகள்",
-        "shipping_address_required": "ஆர்டர்களை வைக்க இந்த இடத்திற்கு ஒரு ஷிப்பிங் முகவரியைச் சேர்க்கவும்."
+        "shipping_address_required": "ஆர்டர்களை வைக்க இந்த இடத்திற்கு ஒரு ஷிப்பிங் முகவரியைச் சேர்க்கவும்.",
+        "location_picker_accessibility_label": "இருப்பிடப் பெயர்: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : {{numberOfDays}} நாட்களுக்குள் செலுத்த வேண்டிய பணம்"
       },
       "location_selection": {
         "continue_to_store": "தொடர்ந்து சேமிக்கவும்",
@@ -3557,11 +3692,30 @@
         "clear_search": "தேடலை அழி",
         "try_new_search": "புதிய தேடலை முயற்சிக்கவும்.",
         "description": "உங்கள் கூடையில் ஏற்கனவே பொருட்கள் இருந்தால், இடங்களை மாற்றுவது கூடையின் விலைகளையும் அளவுகளையும் பாதிக்கலாம்.",
-        "no_location_description": "{{company}} -க்கு ஆர்டர்களை வைக்க உங்களுக்கு இனி அனுமதி இல்லை. நீங்கள் இன்னும் தனிப்பட்ட ஆர்டர்களை வைக்கலாம்."
+        "no_location_description": "{{company}} -க்கு ஆர்டர்களை வைக்க உங்களுக்கு இனி அனுமதி இல்லை. நீங்கள் இன்னும் தனிப்பட்ட ஆர்டர்களை வைக்கலாம்.",
+        "list_loading_address_accessibility_message": "{{locationName}} க்கான முகவரியை ஏற்றுகிறது",
+        "list_loading_finished_accessibility_message": "இடங்களின் பட்டியல் ஏற்றப்பட்டது.",
+        "title": "நீங்கள் எந்த இடத்திற்கு வாங்குகிறீர்கள்?"
       },
       "addresses": {
         "billing_address_card_title": "பில்லிங் முகவரி",
-        "shipping_address_card_title": "அனுப்பும் முகவரி"
+        "shipping_address_card_title": "அனுப்பும் முகவரி",
+        "cancel_adding_billing_address_accessibility_label": "பில்லிங் முகவரியைச் சேர்ப்பதை ரத்துசெய்",
+        "cancel_adding_shipping_address_accessibility_label": "ஷிப்பிங் முகவரியைச் சேர்ப்பதை ரத்துசெய்"
+      },
+      "orders": {
+        "draft_order_list": {
+          "pending_tab_accessibility_label": {
+            "pending_orders": {
+              "one": "உங்களிடம் {{count}} ஆர்டர் நிலுவையில் உள்ளது.",
+              "other": "உங்களிடம் {{count}} ஆர்டர்கள் நிலுவையில் உள்ளன."
+            },
+            "more_than_pagination_length": "உங்களிடம் {{count}} க்கும் மேற்பட்ட ஆர்டர்கள் நிலுவையில் உள்ளன."
+          },
+          "pagination": {
+            "nav_accessibility_label": "மதிப்பாய்வு ஆர்டர்கள் வழிசெலுத்தல் பொத்தான்கள்"
+          }
+        }
       }
     },
     "errors": {
