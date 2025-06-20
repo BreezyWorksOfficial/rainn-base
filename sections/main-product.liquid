@@ -267,13 +267,25 @@
                         id="Quantity-{{ section.id }}"
                         data-cart-quantity="{{ cart_qty }}"
                         data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                        min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                        
                         {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
                           data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
                           max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
                         {% endif %}
+                        min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                         step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
                         value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+
+                        {% comment %} {% if product.tags contains 'qty-100' %}
+                          step="100"
+                          min="100"
+                          value="100"
+                        {% else %}
+                          min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                          step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                          value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                        {% endif %} {% endcomment %}
+
                         form="{{ product_form_id }}"
                       >
                       <button class="quantity__button" name="plus" type="button">
