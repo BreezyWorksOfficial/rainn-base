@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/sumugan--logo-1.png",
+    "logo": "shopify://shop_images/sumugan--logo.svg",
     "logo_width": 50,
-    "favicon": "shopify://shop_images/sumugan--logo-1.png",
+    "favicon": "shopify://shop_images/sumugan--logo.svg",
     "type_header_font": "sans-serif",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
