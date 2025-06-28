@@ -77,24 +77,6 @@
         "padding_bottom": 52
       }
     },
-    "featured_blog_UANpXJ": {
-      "type": "featured-blog",
-      "name": "t:sections.featured-blog.presets.name",
-      "settings": {
-        "blog": "farming",
-        "post_limit": 3,
-        "heading": "",
-        "heading_size": "h2",
-        "columns_desktop": 3,
-        "show_view_all": false,
-        "show_image": false,
-        "show_date": true,
-        "show_author": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
     "featured_collection_dnzAEr": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -102,7 +84,7 @@
         "collection": "hdpe-sprinkler-pipe-fittings",
         "products_to_show": 4,
         "title": "HDPE Sprinkler Pipe Fittings",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -123,12 +105,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_blog_UANpXJ": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "farming",
+        "post_limit": 3,
+        "heading": "",
+        "heading_size": "h2",
+        "columns_desktop": 3,
+        "show_view_all": false,
+        "show_image": false,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "featured_blog_UANpXJ",
-    "featured_collection_dnzAEr"
+    "featured_collection_dnzAEr",
+    "featured_blog_UANpXJ"
   ]
 }
